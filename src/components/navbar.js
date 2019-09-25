@@ -15,7 +15,7 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" onClick={this.toggleNav}>
                         <span class="navbar-toggler-icon"></span>
