@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav-item.dropdown:hover .first_menu{
+  display: block !important;
+}
+
+.dropdown-submenu:hover .dropdown_menu1{
+  display: block !important;
+}
+
+.submenu2:hover .dropdown_menu2{
+  display: block !important;
+}
+
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.dropdown-menu.dropdown_menu1, .dropdown-menu.dropdown_menu2{
+  display: none !important;
+}
+.dropdown-menu{
+  min-width: 12rem !important;
+
+}
+
+.first_menu{
+  margin-top: -12px !important;
+}
